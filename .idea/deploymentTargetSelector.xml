@@ -16,6 +16,14 @@
       </SelectionState>
       <SelectionState runConfigName="myArmy">
         <option name="selectionMode" value="DROPDOWN" />
+        <DropdownSelection timestamp="2024-06-19T17:19:12.468766800Z">
+          <Target type="DEFAULT_BOOT">
+            <handle>
+              <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\natan\.android\avd\Pixel_7_Pro_API_34.avd" />
+            </handle>
+          </Target>
+        </DropdownSelection>
+        <DialogSelection />
       </SelectionState>
     </selectionStates>
   </component>

@@ -3,7 +3,7 @@
 
     <application>
         <activity
-            android:name=".MainActivity"
+            android:name=".View.MainActivity"
             android:exported="false" />
     </application>
 

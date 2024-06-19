@@ -6,4 +6,6 @@
     <string name="zero">ZERO</string>
     <string name="general_days_left">General Days Left:</string>
     <string name="days">- / -</string>
+    <string name="left_photo_arrow"><![CDATA[<<]]></string>
+    <string name="right_photo_arrow"><![CDATA[>>]]></string>
 </resources>
