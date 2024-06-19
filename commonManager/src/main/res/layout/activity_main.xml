@@ -40,7 +40,7 @@
                 android:text="@string/general_days_left"
                 android:layout_centerHorizontal="true"
                 android:layout_marginVertical="10dp"
-                android:textSize="40sp"/>
+                android:textSize="32sp"/>
 
 
             <androidx.appcompat.widget.LinearLayoutCompat

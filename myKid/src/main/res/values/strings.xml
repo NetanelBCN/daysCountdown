@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SchoolTime</string>
+    <string name="general_countdown">School Days</string>
+    <string name="general_days_left">School Days Counter:</string>
 </resources>
