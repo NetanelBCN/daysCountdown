@@ -21,6 +21,7 @@ public class Position {
     }
 
     public String getCurrentPhoto() {
+
         return currentPhoto;
     }
 

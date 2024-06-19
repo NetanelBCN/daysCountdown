@@ -3,7 +3,7 @@
     <string name="general_countdown">General Countdown</string>
     <string name="decrease">Decrease</string>
     <string name="increase">Increase</string>
-    <string name="zero">ZERO</string>
+    <string name="zero">0</string>
     <string name="general_days_left">General Days Left:</string>
     <string name="days">- / -</string>
     <string name="left_photo_arrow"><![CDATA[<<]]></string>

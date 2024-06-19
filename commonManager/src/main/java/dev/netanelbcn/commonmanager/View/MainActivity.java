@@ -1,6 +1,5 @@
 package dev.netanelbcn.commonmanager.View;
 
-import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -35,18 +34,21 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         findViews();
         logicManagerCommon = new LogicManager_Common(dataManagerCommon);
-        dataManagerCommon.loadData();
+        logicManagerCommon.loadData();
         refreshUI();
         attachListeners();
 
     }
+
     private void refreshUI() {
         Glide.with(this)
-                .load(Uri.parse(dataManagerCommon.getPosition().getCurrentPhoto()))
+                .load(
+                        logicManagerCommon.getPhotosURI().get(logicManagerCommon.getPosition().getPhotoIndex()))
                 .placeholder(R.drawable.ic_launcher_background)
                 .into(main_pic);
-        main_daysBar.setText(dataManagerCommon.getPosition().getDaysNum());
+        main_daysBar.setText(logicManagerCommon.getPosition().getDaysNum() + "");
     }
+
     private void attachListeners() {
         main_left.setOnClickListener(v -> {
             logicManagerCommon.nextPhoto();

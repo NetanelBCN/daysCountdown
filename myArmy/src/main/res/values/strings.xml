@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">manage_my_soldiers</string>
+    <string name="app_name">ArmyTime</string>
+    <string name="general_countdown">Army Countdown</string>
+    <string name="general_days_left">Army Days Left:</string>
+
 </resources>

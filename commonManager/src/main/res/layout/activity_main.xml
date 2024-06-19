@@ -64,9 +64,8 @@
                 <com.google.android.material.imageview.ShapeableImageView
                     android:id="@+id/main_pic"
                     android:layout_width="200dp"
-                    android:layout_height="200dp"
+                    android:layout_height="200dp"/>
 
-                    android:src="@drawable/ic_launcher_background" />
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/main_right"
