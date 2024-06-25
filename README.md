@@ -6,5 +6,7 @@
 ### Features: 
 
 -Choose a unique photo to express your feelings.
+
 -Increase\Decrease days from the app.
+
 -Save your last state’s information.
